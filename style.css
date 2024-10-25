@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1140px;
+    background-color:hsl(217, 54%, 11% );
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(219, 211, 203);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 5px 12px black;
+    display: grid;
+    place-content: center;
+    width: 290px;
+    height: 510px;
+    border-radius: 12px;
+    
+}
+.ava{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-top: 10px;
+} 
+.text2{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+h4{
+    margin-bottom: 16px;
+    margin-top: 12px;
+}
+.iconblue {
+    margin-top: 22px;
+}
+.iconblue p {
+    color: hsl(178, 100%, 50%);
+    margin-left: 22px;
+    margin-top: -20px;
+}
+.text3 {
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.text3 p{
+    color: hsl(215, 51%, 70%);
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.text4{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+}
+.text5{
+    position: relative;
+    left: 130px;
+    bottom: 43px;
+}
+.photo{
+    width: 250px;
+    border-radius: 10px;
+}
+.ava{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-top: 10px;
+} 
+hr {
+    width: 252px;
+    color: hsl(215, 32%, 27%);
+    margin-top: 10px;
+}
